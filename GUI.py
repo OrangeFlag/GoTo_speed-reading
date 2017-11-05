@@ -64,7 +64,7 @@ model.add(Activation('sigmoid'))
 
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['acc'])
 
-#model.load_weights("/home/yorick/Analiz_final/Weights.h5py")
+model.load_weights("Weights.h5py")
 
 
 #--------------------------------------------------------------------------
